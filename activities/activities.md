@@ -202,7 +202,7 @@ def create_app():
 
 Check that the app still runs:
 
-`python -m flask --app 'paralympic_app:create_app()' --debug run`
+`python -m flask --app 'flask_app:create_app()' --debug run`
 
 Note: this provides the minimum config needed. You may wish to investigate other ways to configure Flask which are explained in [configuration.md](/activities/configuration.md).
 
